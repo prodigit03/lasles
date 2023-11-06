@@ -57,6 +57,7 @@
 .flexbox2{
     display: flex;
     gap: .8em;
+    padding-top: 1em;
 }
 .sizing2{
     font-size: 14px;
@@ -67,4 +68,44 @@
     text-align: center;
     padding-top: 1.5em;
     padding-bottom: 1em;
+}
+.lasles3{
+    text-align: center;
+    font-size: .7em;
+    padding-bottom: 2em;
+}
+.image2{
+    width: 50%;
+    margin: 0 auto;
+}
+.centerCon{
+    width: 70%;
+    margin: 0 auto;
+}
+.freecon{
+    font-weight: 500;
+    font-size: 1.3em;
+    text-align: center;
+    padding-top: 2em;
+}
+.selectBox{
+    padding-top: 2em;
+    text-align: center;
+}
+.select{
+    text-decoration: none;
+    color: #F53838;
+    border: 2px solid #F53838;
+    padding: .5em 3em;
+    border-radius: 2em;
+    font-weight: bold;
+}
+.select2{
+    text-decoration: none;
+    background-color: #F53838;
+    color: white;
+    border: 2px solid #F53838;
+    padding: .5em 3em;
+    border-radius: 2em;
+    font-weight: bold;
 }
