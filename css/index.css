@@ -148,6 +148,58 @@
     border: 2px solid grey;
     border-radius: 1em;
     padding: 1em 0;
+    margin-bottom: 2em; 
+}
+.desktop{
+    display: none;
+}
+.subscribe{
+    text-align: center;
+}
+.subscribenow{
+    text-decoration: none;
+    border: 2px solid #F53838;
+    background-color: #F53838;
+    color: white;
+    padding: .5em 2em;
+    border-radius: .5em;
+    font-weight: 500;
+}
+.footercolor{
+    background-color: whitesmoke;
+    margin-top: 2em;
+    padding-bottom: 2em;
+}
+.logoCon2{
+    width: 40%;
+    margin: 0 auto;
+    padding-top: 2em;
+}
+.flexCon2{
+    display: flex;
+    justify-content: center;
+}
+.widthappcon{
+    width: 20%;
+}
+.lasless{
+    text-align: center;
+    padding-bottom: 2em;
+}
+.flexCon3{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1em;
     margin-bottom: 2em;
-    margin-top: 1em;
+}
+.product{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 1em;
+}
+.download{
+    text-decoration: none;
+    color: black;
 }
