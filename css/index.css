@@ -24,8 +24,9 @@
     text-align: left;
 }
 .wordsCon{
-    padding: 1.5em 0;
-    font-size: 14px;
+    padding: 2em 0;
+    font-size: 16px;
+    text-align: center;
 }
 .getstarted{
     text-decoration: none;
@@ -41,11 +42,12 @@
 }
 .flexCon{
     display: flex;
+    justify-content: center;
     
 }
 .flexBox{
     display: flex;
-    gap: .2em;
+    gap: 1em;
     width: 70%;
 }
 .image1{
@@ -77,6 +79,7 @@
 .image2{
     width: 50%;
     margin: 0 auto;
+    margin-top: 2.5em;
 }
 .centerCon{
     width: 70%;
@@ -119,13 +122,16 @@
     width: 17%;
 }
 .borderbox{
-    border: 2px solid #F53838;
+    border: 2px solid grey;
     border-radius: 1em;
-    margin-bottom: 2em;
-
+    margin-bottom: 3em;
 }
+.borderbox:hover {
+    border: 2px solid #F53838;
+}
+
 .theWidthCon{
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     padding: 1em 0;
 }
@@ -141,17 +147,22 @@
 .borderbox2{
     border: 2px solid grey;
     border-radius: 1em;
-    padding: 2em 0;
-    margin-bottom: 2em;
+    padding: 1em 0;
+    margin-bottom: 3em;
 }
 .borderbox3{
     border: 2px solid grey;
     border-radius: 1em;
     padding: 1em 0;
-    margin-bottom: 2em; 
+    margin-bottom: 3em; 
 }
 .desktop{
     display: none;
+}
+.lasles4{
+    text-align: center;
+    font-size: .7em;
+    padding-bottom: 3em;
 }
 .subscribe{
     text-align: center;
@@ -173,14 +184,11 @@
 .logoCon2{
     width: 40%;
     margin: 0 auto;
-    padding-top: 2em;
+    padding-top: 4em;
 }
 .flexCon2{
     display: flex;
     justify-content: center;
-}
-.widthappcon{
-    width: 20%;
 }
 .lasless{
     text-align: center;
@@ -196,10 +204,11 @@
 .product{
     text-decoration: none;
     color: black;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 1em;
 }
 .download{
     text-decoration: none;
     color: black;
+    font-size: 14px;
 }
