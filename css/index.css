@@ -14,7 +14,7 @@
 }
 @media (min-width: 1024px) {
   .wrapper {
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
   }
   .desktop1 {
@@ -243,6 +243,12 @@
 .image3 {
   width: 17%;
 }
+@media (min-width: 1024px) {
+  .mainCon {
+    display: flex;
+    justify-content: space-between;
+  }
+}
 .borderbox {
   border: 2px solid grey;
   border-radius: 1em;
@@ -250,6 +256,11 @@
 }
 .borderbox:hover {
   border: 2px solid #f53838;
+}
+@media (min-width: 1024px) {
+  .borderbox {
+    width: 30%;
+  }
 }
 
 .theWidthCon {
@@ -272,14 +283,47 @@
   padding: 1em 0;
   margin-bottom: 3em;
 }
+@media (min-width: 1024px) {
+  .borderbox2 {
+    width: 30%;
+  }
+}
+
 .borderbox3 {
   border: 2px solid grey;
   border-radius: 1em;
   padding: 1em 0;
   margin-bottom: 3em;
 }
+@media (min-width: 1024px) {
+  .borderbox3 {
+    width: 30%;
+  }
+}
+
 .desktop {
   display: none;
+}
+@media (min-width: 1024px) {
+  .desktop {
+    display: block;
+  }
+  .widthimage {
+    width: 10%;
+  }
+  .fleximage {
+    display: flex;
+    justify-content: space-between;
+  }
+  .fleximage2 {
+    display: flex;
+    align-items: center;
+    border: 2px solid red;
+    text-align: center;
+  }
+  .widthimage2 {
+    width: 25%;
+  }
 }
 .lasles4 {
   text-align: center;
@@ -303,14 +347,41 @@
   margin-top: 2em;
   padding-bottom: 2em;
 }
+@media (min-width:1024px) {
+  .mixBox{
+    display: flex;
+    justify-content: space-between;
+  }
+}
 .logoCon2 {
   width: 40%;
   margin: 0 auto;
   padding-top: 4em;
 }
+@media (min-width: 1024px) {
+  .logoCon2 {
+    width: 30%;
+    margin: 0;
+  }
+  .secondNew {
+    width: 60%;
+  }
+  .private {
+    text-align: left;
+    padding-top: 1em;
+  }
+}
 .flexCon2 {
   display: flex;
   justify-content: center;
+}
+@media (min-width: 1024px) {
+  .flexCon2 {
+    justify-content: left;
+  }
+  .widthappcon{
+    width: 10%;
+  }
 }
 .lasless {
   text-align: center;
@@ -319,6 +390,14 @@
 @media (min-width: 1024px) {
   .lasless {
     text-align: left;
+    font-size: 14px;
+    color: grey;
+  }
+  .mainBox{
+    display: flex;
+    padding-top: 4em;
+    justify-content: space-between;
+    width: 50%;
   }
 }
 .flexCon3 {
@@ -338,4 +417,15 @@
   text-decoration: none;
   color: black;
   font-size: 14px;
+}
+@media (min-width: 1024px) {
+  .newflex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .newCon {
+    width: 25%;
+    text-align: left;
+  }
 }
